@@ -21,9 +21,7 @@ export const ContentProducts = styled.div`
     flex-direction: column;
     overflow: auto;
     background: #ECE7E7;
-    @media (min-width: 1366px) {
-      margin-left: 24px;
-    }
+    margin-left: 24px;
   `}
 `
 
@@ -73,6 +71,10 @@ export const ShowSelectedProducts = styled.div<{expanded: boolean}>`
       color: #F45E18;
     }
     transition: height 0.5s ease-in-out;
+
+    @media (min-width: 320px) and (max-width: 1365px){
+      width: 90%;
+    }
   `}
 `
 
