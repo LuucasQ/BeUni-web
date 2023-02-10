@@ -15,14 +15,17 @@ export const Container = styled.div`
     @media (max-width: 767px) {
       width: 100vw;
       max-width: 100vw;
-      height: 200px;
+      height: 250px;
       padding: 2rem;
+      border-radius: 0 0 16px 16px;
     }
 
     @media (min-width: 768px) and (max-width: 1365px) {
       width: 100vw;
       max-width: 100vw;
       padding: 2rem 7.5rem;
+      height: 250px;
+      border-radius: 0 0 16px 16px;
     }
   `}
 `;
